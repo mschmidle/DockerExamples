@@ -2,6 +2,10 @@
 
 
 ### GitHub repository notes
+change to your working directory
+```
+cd c:\Users\MAS\workspace\DockerExamples
+```
 create repo (init), mark changes to be included in next commit / add changes to staging area (add), save changes in local repo with message (commit), add remote to local repo (remote add origin), push commit to remote repo (push)
 ```
 echo "# DockerExamples" >> README.md
