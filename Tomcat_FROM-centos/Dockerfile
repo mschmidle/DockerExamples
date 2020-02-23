@@ -16,9 +16,9 @@ RUN java -version
 WORKDIR /opt/tomcat/webapps
 RUN curl -O -L https://github.com/MyRepositoryName/SampleWebApp/raw/master/dist/SampleWebApp.war
 
-# expose listener port 8080 for container
+# expose container listener port 8080
 # for access web-applicaton with http://localhost:8080/SampleWebApp
 EXPOSE 8080
 
-# start tomcat servlet-eingine
+# start tomcat servlet-engine
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
